@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style3.css">
+  
+  <body>
+    
+     <!--navbar  -->
+    <div class="navbar">
+
+      <div class="container">
+        <a class="logo" href="#">J-<span>Play</span></a>
+
+        <nav>
+          <ul class="nav-list">
+            <li class="home"><a href="#">Home</a></li>
+            <li class="your-playlist"><a href="#">Your Playlist</a></li>
+          </ul>
+         
+        </nav>
+      </div>
+
+
+
+    </div>
+
+    <!-- Home page -->
+    <div class="home-container">
+     
+      <h1>Welcome to J-Play</h1>
+      <h2>Dive into the world of Anime Songs!!</h2>
+
+      
+
+
+    </div>
+
+
+      <!-- Recently Played , Recent playlist -->
+
+
+
+    <div class="music-container" id="music-container">
+     
+      <button class="down-btn">
+        <i class="fas fa-angle-down"></i>
+      </button>  
+      <div class="music-info">
+        <h4 id="title">Cold</h4>
+       
+        <div class="progress-container" id="progress-container">
+          <div class="progress" id="progress">
+            <div class="song-timer">
+             <h4 class="curr-time">0:00</h4>
+              <h4 class="max-duration">0:00</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    
+
+      <audio src="music/Cold.mpeg" id="audio">      
+      </audio>
+
+      <div class="img-container">
+        <img src="images/Cold.jpg" alt="music-cover" id="cover" />
+      </div>
+  
+     
+      <div class="navigation">
+        <button id="prev" class="action-btn">
+          <i class="fas fa-backward"></i>
+        </button>
+        <button id="play" class="action-btn action-btn-big" >
+          <i class="fas fa-play"></i>
+        </button>
+        <button id="next" class="action-btn">
+          <i class="fas fa-forward"></i>
+        </button>
+        <button id="repeat-list" class="action-btn-repeat" title="Playlist-looped">
+          <i class="fas fa-repeat"></i>
+        </button>
+        <button id="more-music" class="action-btn-more" >
+          <i class="fas fa-list"></i>
+              
+        <div class="music-list">
+
+          <div class="header">
+          <i class="fas fa-list"></i>
+            <span>Music-List</span>
+            <i class="fas fa-xmark"></i>
+          </div>
+        </div>
+
+        </div>
+        <ul>
+          <!-- List of music -->
+        </ul>
+
+
+
+      </div>
+    </div>
+
+ 
+
+    
+  </body>
+
+  <script src="script.js" ></script>
+
+  
+  
+  
+</html>
